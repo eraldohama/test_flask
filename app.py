@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main_page():
-	return json.dumps([{"nome":"Eraldo","cognome":"Hamataj"}, {"file":"index.html"}])
+	return json.dumps([{"nome":"Testing","cognome":"Testing"}, {"file":"index.html"}])
 	
 
 # Run the webserver in localhost at port 5000 - default
